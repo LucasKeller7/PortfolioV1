@@ -127,6 +127,16 @@ body{
     display: flex;
   }
   
+  .gridDeImagens:hover{
+    .elementoDaGrid{
+      width: 16.25vw;
+    }
+  
+    .elementoDaGrid:hover{
+      width: 35vw;
+    }
+  }
+
   .gridElement{
     background-color: green;
     height: 100vh;
