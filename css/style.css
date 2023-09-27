@@ -15,7 +15,7 @@ colours {
   border-color: peru;
 }
 
-/* index.html */
+/* sobre.html */
 
 .header {
   background-color: darkturquoise;
@@ -64,7 +64,7 @@ a:active {
   color: white;
   border-radius: 10px;
   padding: 20px;
-  margin-top: -50px;
+  margin-top: 0px;
   margin-bottom: 10px;
   text-align: center;
   width: 40%;
