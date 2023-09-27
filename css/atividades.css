@@ -127,14 +127,22 @@ body{
     display: flex;
   }
   
-  .gridDeImagens:hover{
-    .elementoDaGrid{
+  /* .imageGrid:hover{
+    .gridElement{
       width: 16.25vw;
     }
   
-    .elementoDaGrid:hover{
+    .gridElement:hover{
       width: 35vw;
     }
+  } */
+  
+  .imageGrid:hover .gridElement {
+    width: 16.25vw;
+  }
+  
+  .imageGrid .gridElement:hover {
+    width: 35vw;
   }
 
   .gridElement{
