@@ -15,6 +15,8 @@ colours {
   border-color: peru;
 }
 
+/* index.html */
+
 .header {
   background-color: darkturquoise;
   color: white;
@@ -121,6 +123,26 @@ a:active {
   margin: 10px;
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.portfolioButton {
+  background-color: #92a8d1;
+  border: 0px solid;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
 /* atividades.html */
 
 body {
@@ -179,24 +201,4 @@ body {
 .image {
   align-self: center;
   width: 100%;
-}
-
-.portfolio {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  gap: 30px;
-  justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 100px;
-}
-
-.portfolioButton {
-  background-color: #92a8d1;
-  border: 0px solid;
-  padding: 20px;
-  border-radius: 20px;
-  font-size: 15px;
-  font-family: sans-serif;
-  cursor: pointer;
 }
