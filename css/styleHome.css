@@ -90,6 +90,7 @@ colours {
     display: flex;
     flex-direction: column;
     margin: 30px auto 50px;
+    height: fit-content!important;
   }
   
   .texto {
@@ -158,7 +159,7 @@ colours {
     color: white;
     border-radius: 10px;
     padding: 20px;
-    margin-top: 0px;
+    margin-top: 0px; 
     text-align: center;
     width: 25%;
     align-self: center;
@@ -189,6 +190,80 @@ colours {
     bottom: 0px;
 
   }
+  
   /* atividades */
 
+  .gridDiv{
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
   
+  .imageGrid{
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* .imageGrid:hover{
+    .gridElement{
+      width: 16.25vw;
+    }
+  
+    .gridElement:hover{
+      width: 35vw;
+    }
+  } */
+  
+  /* .imageGrid:hover .gridElement {
+    width: 16.25vw;
+  } */
+  
+  .imageGrid .gridElement:hover {
+    height: 200px;
+  }
+
+  .gridElement{
+    background-color: green;
+    height: 150px;
+    width: 100% ;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.25s linear;
+    transition: all .5s;
+  }
+  .green{
+    background-color: green;
+  }
+  
+  .purple{
+    background-color: purple;
+  }
+  
+  .yellow{
+    background-color: yellow;
+  }
+  
+  .blue{
+    background-color: blue;
+  }
+  
+  .red{
+    background-color: red;
+  }
+
+  .classTitle {
+    text-align: center;
+    align-self: center;
+    padding-top: 20px;
+  }
+
+  .image {
+    align-self: center;
+    width: 100%;
+  }
