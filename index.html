@@ -13,21 +13,51 @@
         <div class="content">
             <h1>Portfólio<br><span>Lucas Keller</span></h1>
             <!-- <a href="#">Welcome</a> -->
-            <a href="#sobre"><button class="homeButton">Sobre mim</button></a>
-            <a href="atividades.html"><button class="homeButton">Meus projetos</button></a>
+            <nav>
+              <ul>
+                <a href="#sobre"><li>
+                  Sobre mim
+                  <span></span><span></span><span></span><span></span>
+                </li></a>
+                <a href="atividades.html"><li>
+                  Meus projetos
+                  <span></span><span></span><span></span><span></span>
+                </li></a>
+              </ul>
+            </nav>
         </div>
         <img src="./assets/wallpaper.jpg" id="wall">
     </div>
-    
+  
     <div id="sobre">
         <div class="konteiner">
-            <h2 class="titulo">Sobre mim</h2>
+            <div class="title">
+              <a href="#" class="cta">
+                <span>Sobre mim</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+            </div>
             <div class="dados">
                 <p class="texto">Olá! Meu nome é Lucas, tenho 18 anos e estudo no SENAI, onde estou cursando Técnico em Desenvolvimento de Sistemas. Atualmente estou estudando Python, e no meu tempo livre gosto de ouvir música, passar tempo com meus amigos, e assistir esportes, filmes e séries.</p>
-            </div>
+                <div class="socials">
+                  <a href="http://lattes.cnpq.br/1947911345454627" title="Ir para Lattes" target="_blank">
+                      <img class="logos spin" src="./assets/lattes.png" alt="Currículo Lattes">
+                  </a>
+                  <a href="https://www.linkedin.com/in/lucaskeller27/" title="Ir para LinkedIn" target="_blank">
+                      <img class="logos spin" src="./assets/linkedin.png" alt="LinkedIn">
+                  </a>
+                  <a href="https://github.com/lucaskeller27" title="Ir para GitHub" target="_blank">
+                      <img class="logos spin" src="./assets/github.png" alt="GitHub">
+                  </a>
+                </div>
+              </div>
+
             <h2 class="titulo">Meu cronograma</h2>
             <div>
-                <img src="./assets/crono.jpg" class="img">
+                <img src="./assets/crono.jpg" class="img grow">
             </div>
             
             <h2 class="titulo">Minhas atividades</h2>
@@ -74,19 +104,18 @@
 
 
             <footer id="footer">
-                <div class="socials">
-                <a href="https://docs.google.com/presentation/d/19R5mRGI4nZpoCfXz3Cz6IfRavBDICxVPRKVOv3cDRbk/edit?usp=sharing" target="_blank"><button class="portfolioButton">Portfólio 2021</button></a>
-                <a href="https://docs.google.com/presentation/d/1FxMleGu152HlPS0-O3YLc6AM6aJ8NCvFMDmt9SFrcmg/edit?usp=sharing" target="_blank"><button class="portfolioButton">Portfólio 2022</button></a>
-                    <a href="http://lattes.cnpq.br/1947911345454627" title="Ir para Lattes" target="_blank">
-                        <img class="logos" src="./assets/lattes.png" alt="Currículo Lattes">
-                    </a>
-                    <a href="https://www.linkedin.com/in/lucaskeller27/" title="Ir para LinkedIn" target="_blank">
-                        <img class="logos" src="./assets/linkedin.png" alt="LinkedIn">
-                    </a>
-                    <a href="https://github.com/lucaskeller27" title="Ir para GitHub" target="_blank">
-                        <img class="logos" src="./assets/github.png" alt="GitHub">
-                    </a>
-                </div>
+              <nav>
+                <ul>
+                  <a href="https://docs.google.com/presentation/d/19R5mRGI4nZpoCfXz3Cz6IfRavBDICxVPRKVOv3cDRbk/edit?usp=sharing" target="_blank"><li>
+                    Portfólio 2021
+                    <span></span><span></span><span></span><span></span>
+                  </li></a>
+                  <a href="https://docs.google.com/presentation/d/1FxMleGu152HlPS0-O3YLc6AM6aJ8NCvFMDmt9SFrcmg/edit?usp=sharing" target="_blank"><li>
+                    Portfólio 2022
+                    <span></span><span></span><span></span><span></span>
+                  </li></a>
+                </ul>
+              </nav>
             </footer>
         </div>
     </div>
