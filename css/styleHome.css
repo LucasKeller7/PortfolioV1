@@ -221,6 +221,7 @@ colours {
     /* height: 300px; */
     display: flex;
     flex-direction: column;
+    gap: 10px;
   }
   
   /* .imageGrid:hover{
@@ -251,6 +252,7 @@ colours {
     flex-direction: column;
     transition: width 0.25s linear;
     transition: all .5s;
+    border-radius: 10px;
   }
   .green{
     background-color: green;
