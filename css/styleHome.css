@@ -203,25 +203,57 @@ colours {
   border-radius: 10px;
 }
 
-.green {
-  background-color: green;
+#tileOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/patterns/curves-dark-texture-pattern.jpg');
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
 }
 
-.purple {
-  background-color: purple;
+#tileTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/patterns/macos-monterey-wwdc-21-stock-dark-mode-5k-1920x1200-5585.jpg');
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
 }
 
-.yellow {
-  background-color: yellow;
+#tileThree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/patterns/texture-dark-background-purple-3440x1440-3086.jpg');
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
 }
 
-.blue {
-  background-color: blue;
+#tileFour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/patterns/ios-blue-background-texture-curves-digital-art-stock-4480x2520-6784.jpg');
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
 }
 
-.red {
-  background-color: red;
+#tileFive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/patterns/173805.jpg');
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
 }
+
+/* background-image: url('../assets/patterns/173805.jpg'); */
 
 .classTitle {
   text-align: center;
