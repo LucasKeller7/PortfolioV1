@@ -207,7 +207,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/patterns/curves-dark-texture-pattern.jpg');
+  background-image: url('../assets/patterns/173805.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -217,7 +217,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/patterns/macos-monterey-wwdc-21-stock-dark-mode-5k-1920x1200-5585.jpg');
+  background-image: url('../assets/patterns/texture-dark-background-purple-3440x1440-3086.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -227,7 +227,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/patterns/texture-dark-background-purple-3440x1440-3086.jpg');
+  background-image: url('../assets/patterns/ios-blue-background-texture-curves-digital-art-stock-4480x2520-6784.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -237,7 +237,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/patterns/ios-blue-background-texture-curves-digital-art-stock-4480x2520-6784.jpg');
+  background-image: url('../assets/patterns/macos-monterey-wwdc-21-stock-dark-mode-5k-1920x1200-5585.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -247,7 +247,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/patterns/173805.jpg');
+  background-image: url('../assets/patterns/curves-dark-texture-pattern.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -256,9 +256,18 @@ colours {
 /* background-image: url('../assets/patterns/173805.jpg'); */
 
 .classTitle {
-  text-align: center;
+  /* text-align: center;
   align-self: center;
-  padding-top: 20px;
+  padding-top: 20px; */
+
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: white;
 }
 
 .image {
