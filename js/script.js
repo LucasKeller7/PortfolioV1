@@ -35,10 +35,12 @@ window.addEventListener('scroll', toggleButton);
 const newUrl = "#"
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
-  setTimeout(function(){
-    window.location.replace(newUrl);
-  }, 1500);
+  window.location.replace(newUrl);
 }
 
 // Add a click event listener to the button
 button.addEventListener('click', scrollToTop);
+
+function goBack(){
+  window.history.back();
+}
