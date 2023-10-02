@@ -31,8 +31,14 @@ function toggleButton() {
 window.addEventListener('scroll', toggleButton);
 
 // Function to smoothly scroll to the top when the button is clicked
+
+const newUrl = "https://lucas-keller.netlify.app"
+// const newUrl = "http://127.0.0.1:5500/Portfolio/index.html"
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
+  setTimeout(function(){
+    window.location.replace(newUrl);
+  }, 1500);
 }
 
 // Add a click event listener to the button

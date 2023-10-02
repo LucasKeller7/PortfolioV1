@@ -256,10 +256,6 @@ colours {
 /* background-image: url('../assets/patterns/173805.jpg'); */
 
 .classTitle {
-  /* text-align: center;
-  align-self: center;
-  padding-top: 20px; */
-
   position: relative;
   font-size: 16px;
   line-height: 18px;
@@ -269,6 +265,14 @@ colours {
   vertical-align: middle;
   color: white;
 }
+
+/* .left {
+  padding-right: 500px;
+}
+
+.right {
+  padding-left: 500px;
+} */
 
 .image {
   align-self: center;
