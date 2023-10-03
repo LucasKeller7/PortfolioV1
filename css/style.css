@@ -19,7 +19,6 @@ colours {
   border-color: #141414;
   border-color: goldenrod;
   /* box-shadow: 2px 2px 2px 2px black; */
-
 }
 
 .Section_top {
@@ -51,7 +50,6 @@ colours {
   padding: 50px;
   background-color: #191D2B;
   text-align: center;
-
 }
 
 #sobre {
@@ -60,10 +58,6 @@ colours {
   border-radius: 15px 15px 0 0;
   padding-top: 30px;
 }
-
-/* .content h1 span{
-    color: #111;
-} */
 
 .content h1 {
   color: #fff;
@@ -110,16 +104,6 @@ colours {
   align-self: center;
 }
 
-.portfolio {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  gap: 30px;
-  justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 100px;
-}
-
 .dados {
   display: flex;
   flex-direction: column;
@@ -141,7 +125,6 @@ colours {
   align-self: center;
   position: relative;
   bottom: 0px;
-
 }
 
 .spin {
@@ -179,20 +162,6 @@ colours {
   gap: 10px;
 }
 
-/* .imageGrid:hover{
-    .gridElement{
-      width: 16.25vw;
-    }
-  
-    .gridElement:hover{
-      width: 35vw;
-    }
-  } */
-
-/* .imageGrid:hover .gridElement {
-    width: 16.25vw;
-  } */
-
 .imageGrid .gridElement:hover {
   height: 180px;
   justify-content: center;
@@ -214,7 +183,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/patterns/173805.jpg');
+  background-image: url('../assets/wallpapers/wallpaper1.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -224,7 +193,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/patterns/texture-dark-background-purple-3440x1440-3086.jpg');
+  background-image: url('../assets/wallpapers/wallpaper2.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -234,7 +203,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/patterns/ios-blue-background-texture-curves-digital-art-stock-4480x2520-6784.jpg');
+  background-image: url('../assets/wallpapers/wallpaper3.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -244,7 +213,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/patterns/macos-monterey-wwdc-21-stock-dark-mode-5k-1920x1200-5585.jpg');
+  background-image: url('../assets/wallpapers/wallpaper4.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -254,23 +223,10 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/patterns/curves-dark-texture-pattern.jpg');
+  background-image: url('../assets/wallpapers/wallpaper5.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
-}
-
-/* background-image: url('../assets/patterns/173805.jpg'); */
-
-.classTitle {
-  position: relative;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 900;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  vertical-align: middle;
-  color: white;
 }
 
 /* .left {
@@ -281,9 +237,15 @@ colours {
   padding-left: 500px;
 } */
 
-.image {
-  align-self: center;
-  width: 100%;
+.classTitle {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: white;
 }
 
 /* buttons */
@@ -386,7 +348,6 @@ a {
   padding: 19px 22px;
   transition: all 0.2s ease;
   cursor: default;
-
 }
 
 .cta:before {
@@ -479,7 +440,7 @@ a {
   transition: opacity 0.3s ease-in-out;
   display: flex;
   align-items: center;
-  justify-content: center; /* Center the content (image) */
+  justify-content: center;
 }
 
 .hidden {
@@ -489,7 +450,7 @@ a {
 
 /* back to home page button */
 
-.ctacta {
+.cta2 {
   position: relative;
   margin: auto;
   padding: 19px 22px;
@@ -497,7 +458,7 @@ a {
   cursor: default;
 }
 
-.ctacta:before {
+.cta2:before {
   content: "";
   position: absolute;
   top: 0;
@@ -510,7 +471,7 @@ a {
   transition: all 0.3s ease;
 }
 
-.ctacta span {
+.cta2 span {
   position: relative;
   font-size: 16px;
   line-height: 18px;
@@ -521,7 +482,7 @@ a {
   color: white;
 }
 
-.ctacta svg {
+.cta2 svg {
   position: relative;
   top: 0;
   margin-left: 10px;
@@ -534,16 +495,16 @@ a {
   transition: all 0.3s ease;
 }
 
-.ctacta:hover:before {
+.cta2:hover:before {
   width: 100%;
   background: #3D3777;
 }
 
-.ctacta:hover svg {
+.cta2:hover svg {
   transform: translateX(0);
   transition: all 0.5s ease;
 }
 
-.ctacta:active {
+.cta2:active {
   transform: scale(0.96);
 }
