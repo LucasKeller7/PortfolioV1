@@ -261,8 +261,9 @@ nav ul {
 
 nav ul li {
   --c: #3D3777;
-  color: var(--c);
+  /* color: var(--c); */
   font-size: 16px;
+  color: #7064da;
   border: 0.3em solid var(--c);
   border-radius: 0.5em;
   width: 12em;
@@ -381,7 +382,8 @@ a {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #111;
+  /* stroke: #111; */
+  stroke: white;
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -395,6 +397,7 @@ a {
 .cta:hover svg {
   transform: rotate(90deg);
   transition: all 0.5s ease;
+  /* stroke: #111; */
 }
 
 .cta:active {
@@ -455,7 +458,8 @@ a {
   margin: auto;
   padding: 19px 22px;
   transition: all 0.2s ease;
-  cursor: default;
+  cursor: pointer;
+  margin-right: 990px;
 }
 
 .cta2:before {
@@ -489,7 +493,8 @@ a {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #111;
+  /* stroke: #111; */
+  stroke: white;
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -501,7 +506,7 @@ a {
 }
 
 .cta2:hover svg {
-  transform: translateX(0);
+  transform: rotate(180deg);
   transition: all 0.5s ease;
 }
 
