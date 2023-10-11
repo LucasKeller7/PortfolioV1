@@ -65,6 +65,12 @@ colours {
   letter-spacing: 10px;
 }
 
+.content h1 span{
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
 /* sobre */
 
 .konteiner {
@@ -455,83 +461,88 @@ a {
 
 /* go back button */
 
-.btn {
-  box-sizing: border-box;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  background-color: transparent;
-  border: 3px solid #3D3777;
-  border-radius: 0.6em;
-  color: #3D3777;
-  cursor: pointer;
+#goBack {
+  position: relative;
+  right: 40%;
+  border-radius: 100;
+  width: 50;
+}
+
+/* #gbNav{
+
+} */
+
+/* #gbA {
+
+} */
+
+#gbUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  align-self: center;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1;
-  margin: 10px;
-  padding: 20px 40px;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
-.btn:hover, .btn:focus {
-  color: #fff;
-  outline: 0;
-
-}
-.fifth {
-  border-color: #3D3777;
-  border-radius: 100px;
-  color: #8e44ad;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  transition: color 400ms ease-in-out;
-}
-
-.fifth:after {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 100%;
-  background: #3D3777;
-  z-index: -1;
-  transition: width 500ms ease-in-out;
-}
-
-.fifth:hover {
-  color: #fff;
-}
-
-.fifth:hover:after {
-  width: 110%;
-}
-
-.fifth span {
-  position: relative;
+#gbLi {
+  --c: #3D3777;
+  /* color: var(--c); */
   font-size: 16px;
-  line-height: 18px;
-  font-weight: 900;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  vertical-align: middle;
-  /* color: white; */
-
   color: #7064da;
+  border: 0em solid var(--c);
+  border-radius: 1.5em!important;
+  /* border-radius: 500px; */
+  width: 150px;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
   overflow: hidden;
   z-index: 1;
+  transition: 0.5s;
+  margin: 1em;
+  cursor: pointer;
 }
 
-.fifth:hover span {
-  color: #fff;
-  outline: 0;
-  transition: color 400ms ease-in-out;
+#gbSpan {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+#gbLi:hover {
+  color: white;
+}
+
+#gbLi:hover span {
+  transform: translateY(0) scale(2);
+}
+
+#gbSpan:nth-child(1) {
+  --n: 1;
+}
+
+#gbSpan:nth-child(2) {
+  --n: 2;
+}
+
+
+#gbSpan:nth-child(3) {
+  --n: 3;
+}
+
+#gbSpan:nth-child(4) {
+  --n: 4;
 }
