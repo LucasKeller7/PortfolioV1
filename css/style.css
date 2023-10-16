@@ -42,7 +42,7 @@ colours {
 
 .content {
   position: absolute;
-  top: 66%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
@@ -431,7 +431,7 @@ a {
 
 .classDiv {
   padding-top: 30px;
-  margin-bottom: 500px;
+  margin-bottom: 100px;
 }
 
 /* back to top button */
@@ -568,12 +568,12 @@ a {
   object-fit: cover;
 }
 
-#tileOne2:hover{
+/* #tileOne2:hover{
   background-position: 50% 0;
   
-}
+} */
 
-#tileTwo {
+#tileTwo2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -582,6 +582,10 @@ a {
   background-position: center;
   object-fit: cover;
 }
+
+/* #tileTwo2:hover{
+  background-position: 50% 0;
+} */
 
 #tileThree {
   display: flex;
