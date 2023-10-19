@@ -1,4 +1,3 @@
-
 // back to top button
 
 const button = document.getElementById('fixedButton');
@@ -36,10 +35,11 @@ for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var divcontent = this.nextElementSibling;
+    divcontent.classList.toggle("activeLor")
     if (divcontent.style.maxHeight){
       divcontent.style.maxHeight = null;
     } else {
-      divcontent.style.maxHeight = divcontent.scrollHeight + "px";
+      divcontent.style.maxHeight =  "999px";
     }
   });
 }
