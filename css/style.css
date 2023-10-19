@@ -123,7 +123,6 @@ colours {
 
 #pfp:hover {
   opacity: 0.75;
-  border-radius: 10px;
 }
 
 #picDiv {
@@ -203,7 +202,7 @@ colours {
   /* height: 300px; */
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  /* gap: 5px; */
 }
 
 .imageGrid .gridElement:hover {
@@ -649,3 +648,34 @@ a {
   margin: 30px auto 50px;
   height: fit-content !important;
 }
+
+/* collapsibles */
+
+.collapsible {
+  margin: 0;
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 0px 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.divcontent {
+  margin-bottom: 10px;
+  background-color: white;
+  width: 95%;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  align-self: center;
+  transition: max-height 0.2s ease-out;
+  border-radius: 0 0 10px 10px;
+}
+
+/* .divcontent: {
+  margin-bottom: 300px;
+} */
