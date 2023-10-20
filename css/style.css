@@ -226,7 +226,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/wallpapers/wallpaper1.jpg');
+  background-image: url('../assets/wallpapers/linguagens.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -236,7 +236,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/wallpapers/wallpaper2.jpg');
+  background-image: url('../assets/wallpapers/humanas.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -246,7 +246,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/wallpapers/wallpaper3.jpg');
+  background-image: url('../assets/wallpapers/natureza.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -256,7 +256,7 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/wallpapers/wallpaper4.jpg');
+  background-image: url('../assets/wallpapers/matematica.jpg');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -266,7 +266,27 @@ colours {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../assets/wallpapers/wallpaper5.jpg');
+  background-image: url('../assets/wallpapers/pda.jpg');
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
+}
+
+#tileSix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/wallpapers/ims.jpg');
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
+}
+
+#tileSeven {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/wallpapers/bdd.png');
   background-size: 100%;
   background-position: center;
   object-fit: cover;
@@ -613,7 +633,7 @@ a {
   max-height: 0;
   overflow: hidden;
   align-self: center;
-  transition: max-height 1.5s ease-in-out!important;
+  transition: max-height .75s ease-in-out;
   border-radius: 0 0 10px 10px;
   display: flex;
   flex-direction: column;
@@ -621,7 +641,6 @@ a {
   gap: 20px;
   align-items: center;
 }
-
 
 .row {
   display: flex;
@@ -649,6 +668,10 @@ a {
 
 .mtm {
   max-width: 333px;
+}
+
+.small {
+  max-width: 300px;
 }
 
 .btnatividade{
