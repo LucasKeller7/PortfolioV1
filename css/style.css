@@ -613,7 +613,7 @@ a {
   max-height: 0;
   overflow: hidden;
   align-self: center;
-  transition: max-height 0.33s ease-out;
+  transition: max-height 0.5s ease-in-out;
   border-radius: 0 0 10px 10px;
   display: flex;
   justify-content: center;
@@ -630,6 +630,9 @@ a {
 .atividade {
   width: 100%;
   margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all .33s;
+  border-radius: 5px;
   /* padding: 30px; */
 }
 
@@ -639,25 +642,34 @@ a {
 }
 
 .btnatividade:hover .black{
-  opacity: 1;
+  opacity: 0.9;
+}
+
+.btnatividade:hover .atividade{
+  opacity: 0.5;
 }
 
 .black{
   position: absolute;
-  width: calc(100% - 120px);
-  height: calc(100% - 120px);
-  opacity: 0;
-  background: rgba(0, 0, 0, 0.637);
-  transition: all .3s;
   top: 50%;
   left: 50%;
+  width: calc(100% - 75px);
+  height: calc(100% - 100px);
+  opacity: 0;
+  background: rgb(37, 37, 37);
+  transition: all .33s;
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
+  align-self: center;
   justify-content: center;
-  padding: 30px;
+  /* padding: 30px; */
+  border-radius: 5px;
 }
 
-.black p{
-  color: white
+.atvText {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-size: 17px;
 }
