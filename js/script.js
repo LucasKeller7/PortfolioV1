@@ -39,7 +39,7 @@ for (i = 0; i < coll.length; i++) {
     if (divcontent.style.maxHeight){
       divcontent.style.maxHeight = null;
     } else {
-      divcontent.style.maxHeight =  "999px";
+      divcontent.style.maxHeight =  "9999px";
     }
   });
 }

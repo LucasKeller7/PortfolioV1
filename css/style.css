@@ -613,13 +613,24 @@ a {
   max-height: 0;
   overflow: hidden;
   align-self: center;
-  transition: max-height 0.5s ease-in-out;
+  transition: max-height 1.5s ease-in-out!important;
   border-radius: 0 0 10px 10px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 20px;
   align-items: center;
-  
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.notFirst {
+  margin-top: -33px;
 }
 
 .activeLor{
@@ -634,6 +645,10 @@ a {
   transition: all .33s;
   border-radius: 5px;
   /* padding: 30px; */
+}
+
+.mtm {
+  max-width: 333px;
 }
 
 .btnatividade{
