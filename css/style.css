@@ -666,12 +666,12 @@ a {
   /* padding: 30px; */
 }
 
-.mtm {
-  max-width: 333px;
+.single {
+  max-width: 350px;
 }
 
-.small {
-  max-width: 300px;
+.double {
+  max-width: 333px;
 }
 
 .btnatividade{
